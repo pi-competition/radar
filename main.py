@@ -23,15 +23,7 @@ devices = [
         "name": "test",
         "type": "CAR",
         "net_status": "UNKNOWN"
-    },
-    {
-        "ip": None,
-        "mac": "b8:27:eb:56:c3:08",
-        "name": "test2",
-        "type": "CAR",
-        "net_status": "UNKNOWN"
     }
-
 ]
 
 last_run = None
@@ -81,6 +73,8 @@ def main():
         if res:
             device['ip'] = res.split()[0]
             device['net_status'] = res.split()[5]
+        else:
+            device['net_status'] = "UNKNOWN"
     last_run = datetime.datetime.now().isoformat()
     print(last_run)
 
