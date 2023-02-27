@@ -13,12 +13,13 @@ curl -X GET http://127.0.0.1:5000/devices
 
 ### Response:
 Returns and array of devices
-```json
+```
 [
     {
         "ip?": "0.0.0.0",
         "mac": "00:00:00:00:00:00",
         "name": "CAR-1",
+        "type": "CAR" | "CONTROL"
         "net_status": "UNKNOWN" | "PERMANENT" | "NOARP" | "STALE" | "REACHABLE" | "NONE" | "INCOMPLETE" | "DELAY" | "PROBE" | "FAILED"
     }
 ]
