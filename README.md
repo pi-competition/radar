@@ -19,7 +19,7 @@ Returns and array of devices
         "ip?": "0.0.0.0",
         "mac": "00:00:00:00:00:00",
         "name": "CAR-1",
-        "type": "CAR" | "CONTROL"
+        "type": "CAR" | "CONTROL",
         "net_status": "UNKNOWN" | "PERMANENT" | "NOARP" | "STALE" | "REACHABLE" | "NONE" | "INCOMPLETE" | "DELAY" | "PROBE" | "FAILED"
     }
 ]
