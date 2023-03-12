@@ -19,15 +19,8 @@ devices = [
     },
     {
         "ip": None,
-        "mac": "b8:27:eb:7f:67:4c",
+        "mac": "b8:27:eb:7f:67:4c", # CHANGE THIS
         "name": "CAR-1",
-        "type": "CAR",
-        "net_status": "UNKNOWN"
-    },
-    {
-        "ip": None,
-        "mac": "b8:27:eb:8c:f6:b8",
-        "name": "CAR-2",
         "type": "CAR",
         "net_status": "UNKNOWN"
     }
